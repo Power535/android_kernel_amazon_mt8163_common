@@ -16,6 +16,12 @@ config THERMAL_abc123
 	help
 	  For abc123 specific configurations for thermal related.
 
+config THERMAL_KARNAK
+	bool "THERMAL_KARNAK"
+	default n
+	help
+	  For KARNAK specific configurations for thermal related.
+
 config THERMAL_abc123
 	bool "THERMAL_abc123"
 	default n
